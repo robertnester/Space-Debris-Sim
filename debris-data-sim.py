@@ -10,18 +10,12 @@ import FPSM
 
 from objloader import *
 
-import random
-
-##tle = tlefile.read('COSMOS 2251', 'cosmos-2251-debris.txt')
-
 orbMat = [[0 for x in range(3)] for y in range(100)]
 vertMat = [[0 for x in range(8)] for y in range(100)]
 
 now = datetime.utcnow()
 
 i = 0
-
-##file = open("data_points.txt","w")
 
 for x in range(0,100):
     if x == 0:
@@ -36,16 +30,7 @@ for x in range(0,100):
     orbMat[i][1] = 0.49 * orbY.get_position(now)[0][1]
     orbMat[i][2] = 0.49 * orbZ.get_position(now)[0][2]
 
-##    file.write(str(orbMat[i][0]))
-##    file.write(", ")
-##    file.write(str(orbMat[i][1]))
-##    file.write(", ")
-##    file.write(str(orbMat[i][2]))
-##    file.write("\n")
-
     i += 1
-
-##file.close()
 
 i = 0
     
