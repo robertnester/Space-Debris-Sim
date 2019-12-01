@@ -1,5 +1,5 @@
 # space-debris-sim
-NORAD Debris Data Simulation
+NORAD Space Debris Data Simulation
 
 Created for data testing purposes for the 2019 NASA SpaceApps Challenge Hackathon.
 
