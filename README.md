@@ -1,4 +1,4 @@
-# space-debris-sim
+# Space Debris Simulation
 NORAD satellite debris data simulation. Created for data testing and prototyping purposes.
 
 COSMOS 2251 debris data set used in this simulation can be found at: https://www.celestrak.com/NORAD/elements/cosmos-2251-debris.txt
